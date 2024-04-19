@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(19deg, #24d4fd 0%, #b721ff);
+}
+h1 {
+  color: white;
+  margin: 15px;
+}
+input {
+  width: 300px;
+  height: 40px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  margin: 15px;
+  outline: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 10px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 1.1rem;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+  background: #b721ff;
+  color: white;
+  border: none;
+}
+
+.qr-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px; /* Sesuaikan ukuran ikon */
+    height: 60px; /* Sesuaikan ukuran ikon */
+    z-index: 1;
+  }
